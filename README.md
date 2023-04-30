@@ -1,6 +1,5 @@
 # Flutter Habbit tracking app [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
- <img src="assets/icon/icon.png" width="100">
 
 ⭐️ the repo if you love it.
 
