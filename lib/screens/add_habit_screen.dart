@@ -23,8 +23,7 @@ class _AddHabitScreenState extends ConsumerState<AddHabitScreen> {
   @override
   final TextEditingController _habitNameControoler = TextEditingController();
   var _habitTimeInTheDay = DateTime.now();
-  final _time =
-      TimeOfDay(hour: DateTime.now().hour, minute: DateTime.now().minute);
+  final _time = Time(hour: DateTime.now().hour, minute: DateTime.now().minute);
   var _validate = false;
   Color _color = availableColors[0];
 
