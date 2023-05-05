@@ -34,20 +34,6 @@ void notificationInit() async {
       ),
     ],
   );
-  AwesomeNotifications().actionStream.listen(
-    (notification) {
-      if (notification.channelKey == 'scheduled_channel' && Platform.isIOS) {
-        AwesomeNotifications().getGlobalBadgeCounter().then(
-              (value) =>
-                  AwesomeNotifications().setGlobalBadgeCounter(value - 1),
-            );
-      }
-    },
-  );
-
-  AwesomeNotifications().createdStream.listen(
-        (notification) {},
-      );
 }
 
 void main() async {
